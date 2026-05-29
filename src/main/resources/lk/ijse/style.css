@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap');
+
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom right, #090d16, #121026, #240b36);
+    -fx-padding: 20;
+}
+
+.glass-card {
+    -fx-background-color: rgba(255, 255, 255, 0.04);
+    -fx-border-color: rgba(255, 255, 255, 0.15);
+    -fx-border-width: 1px;
+    -fx-border-radius: 16px;
+    -fx-background-radius: 16px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 20, 0, 0, 10);
+    -fx-padding: 25;
+}
+
+.title-label {
+    -fx-font-family: 'Montserrat', 'System', 'sans-serif';
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(to right, #ec4899, #a855f7, #06b6d4);
+}
+
+.status-label {
+    -fx-font-family: 'Inter', 'System', 'sans-serif';
+    -fx-font-size: 12px;
+    -fx-text-fill: #94a3b8;
+}
+
+.custom-text-area {
+    -fx-font-family: 'Inter', 'System', 'sans-serif';
+    -fx-font-size: 14px;
+    -fx-text-fill: #000000;
+    -fx-control-inner-background: rgba(15, 23, 42, 0.45);
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(255, 255, 255, 0.08);
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.custom-text-area .text {
+    -fx-fill: #ffffff;
+}
+
+.custom-text-area .content {
+    -fx-background-color: transparent;
+    -fx-padding: 10;
+}
+
+.custom-text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.custom-text-area .scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.custom-text-area .scroll-bar:vertical .thumb {
+    -fx-background-color: rgba(255, 255, 255, 0.15);
+    -fx-background-radius: 4px;
+}
+
+.custom-text-area .scroll-bar:vertical .thumb:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.25);
+}
+
+.custom-text-area .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.custom-text-area .scroll-bar:horizontal .thumb {
+    -fx-background-color: rgba(255, 255, 255, 0.15);
+    -fx-background-radius: 4px;
+}
+
+.custom-text-field {
+    -fx-font-family: 'Inter', 'System', 'sans-serif';
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffe4e4;
+    -fx-prompt-text-fill: #64748b;
+    -fx-background-color: rgba(255, 255, 255, 0.06);
+    -fx-border-color: rgba(255, 255, 255, 0.1);
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10 12 10 12;
+}
+
+.custom-text-field .text {
+    -fx-fill: #ffffff;
+}
+
+.custom-text-field:focused {
+    -fx-border-color: #8b5cf6;
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-send {
+    -fx-font-family: 'Montserrat', 'System', 'sans-serif';
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: linear-gradient(to right, #ec4899, #8b5cf6);
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10 24 10 24;
+    -fx-cursor: hand;
+}
+
+.btn-send:hover {
+    -fx-background-color: linear-gradient(to right, #f43f5e, #a855f7);
+}
